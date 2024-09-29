@@ -4,21 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Age Calculator</title>
-<link rel="stylesheet" href="./style.css">
-
-    
-    
+<link rel="stylesheet" href="./style.css"> 
 </head>
 <body>
-
-   
-
-    
-    <input type="date" id="dob"  name="dob">
+    <div class="main-container">
+    <input type="date" id="brithday">
     <button onclick="calculateAge()">Calculate</button>
 
    
-    <div class="age-container">
+   <div class="age-boxes">
         <div class="age-box">
             <h4>Years</h4>
             <p id="years"></p>
@@ -31,7 +25,7 @@
             <h4>Days</h4>
             <p id="days"></p>
         </div>
-        
+        </div>
     </div>
 <script src="./script.js" ></script>
     

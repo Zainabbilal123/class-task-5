@@ -1,13 +1,13 @@
 
         function calculateAge() {
-            const dobInput = document.getElementById("dob").value;
-            const dob = new Date(dobInput);
+            const brithdayInput = document.getElementById("brithday").value;
+            const brithday = new Date(brithdayInput);
             const now = new Date();
 
-            const diffInMs = now - dob;
+            const Ms = now - brithday;
 
             
-            const seconds = Math.floor(diffInMs / 1000);
+            const seconds = Math.floor(Ms / 1000);
             const minutes = Math.floor(seconds / 60);
             
             
