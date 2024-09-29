@@ -4,6 +4,8 @@ body{
 .main-container{
 text-align: center;
 background-color: black;
+margin-top: 20%;
+padding: 30px;
 }
 .age-boxes {
             display: flex;
